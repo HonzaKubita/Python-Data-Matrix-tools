@@ -28,7 +28,7 @@ def generate(size, data, path, name):
                     draw.rectangle((x, y, x+10, y+10), fill=(0, 0, 0), outline=(0, 0, 0))
                 else: 
                     print("Set WHITE to " + str(coordinates[0]) + "," + str(coordinates[1]) + " bit: " + str(z) + " line: " + str(line))
-                    draw.rectangle((x, y, x+10, y+10), fill=(255, 255, 255), outline=(0, 0, 0))
+                    draw.rectangle((x, y, x+10, y+10), fill=(255, 255, 255), outline=(255, 255, 255))
 
                 if z == 3:
                     z = 0
