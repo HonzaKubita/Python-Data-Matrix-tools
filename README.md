@@ -1,4 +1,4 @@
-# Python-QR-tools
+# Python datamatrix tools
 Python program capable of creating and reading QR codes
 
 ## Requirements
